@@ -1,26 +1,24 @@
 # GoJournal
 
+### By Erica Nafziger and Lina Shadrach
+
+## Description
+This project was designed to display basic CRUD functionality with a program with similar functionality to KickStarter or Go Fund Me using AngularJS. Users can add postings, 'back' projects they care about, and delete project. 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+
+## View Project 
+* Clone repo from github
+* cd go-journal in terminal to navigate to project directory
+* Follow 'Adding Firebase Configuration' instructions below to link project to database
+* Run npm install in the terminal
+* Run bower install in the terminal
+* Finall follow 'Development server' instructions below
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
 ## Build
-
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Adding Firebase Configuration
 * Create file named api-keys.ts in /src/app/
@@ -44,6 +42,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 Run `ng github-pages:deploy` to deploy to GitHub Pages.
 
-## Further help
+### License
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+*MIT*
+Copyright (c) 2017 **Erica Nafziger and Lina Shadrach**
